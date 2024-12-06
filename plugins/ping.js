@@ -8,8 +8,8 @@ bot(
   },
   async (message, match) => {
     const start = new Date().getTime()
-    await message.send('```Ping!```')
+    await message.send('```Bass kar pagle!```')
     const end = new Date().getTime()
-    return await message.send('*Pong!*\n ```' + (end - start) + '``` *ms*')
+    return await message.send('*Rulayega kya, le fer Pong!*\n ```' + (end - start) + '``` *ms*')
   }
 )
